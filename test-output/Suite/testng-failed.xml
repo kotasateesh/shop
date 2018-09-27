@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="strDatasheet" value="Gmail"/>
+  <parameter name="strDatalocation" value="TestData1.xls"/>
+  <parameter name="Browser" value="Chrome"/>
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.automation.facebook.Fbsignup">
+        <methods>
+          <include name="TestSetup" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.automation.facebook.Fbsignup -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

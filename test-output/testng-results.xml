@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="20091" started-at="2018-09-03T05:09:39Z" finished-at="2018-09-03T05:09:59Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="20091" started-at="2018-09-03T05:09:39Z" finished-at="2018-09-03T05:09:59Z">
+      <class name="jenkinsExamples.FacebookLogin">
+        <test-method status="PASS" signature="openingBrowser()[pri:0, instance:jenkinsExamples.FacebookLogin@28ac3dc3]" name="openingBrowser" is-config="true" duration-ms="10659" started-at="2018-09-03T05:09:39Z" finished-at="2018-09-03T05:09:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openingBrowser -->
+        <test-method status="PASS" signature="facebookLogin()[pri:0, instance:jenkinsExamples.FacebookLogin@28ac3dc3]" name="facebookLogin" duration-ms="7573" started-at="2018-09-03T05:09:50Z" finished-at="2018-09-03T05:09:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- facebookLogin -->
+        <test-method status="PASS" signature="closingBrowser()[pri:0, instance:jenkinsExamples.FacebookLogin@28ac3dc3]" name="closingBrowser" is-config="true" duration-ms="1766" started-at="2018-09-03T05:09:57Z" finished-at="2018-09-03T05:09:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingBrowser -->
+      </class> <!-- jenkinsExamples.FacebookLogin -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

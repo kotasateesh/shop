@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<parameter name="strDatalocation"    value="TestData1.xls"/>
+
+<parameter name="strDatasheet"      value="facebook"/>
+<parameter name="strDatasheet"      value="Gmail"/>
+<parameter name="Browser"           value="Chrome"/>
+<!-- <parameter name="strDatasheet"           value="paytm"/> -->
+
+  <test name="Test"  preserve-order="true"> 
+    <classes>
+<!--       <class name  ="com.automation.chase.ChaseCustomRate4Family"/> -->
+       <class name="com.automation.facebook.FBLogin"/>
+             <class name="com.automation.facebook.Fbsignup"/>
+<!--              <class name="com.automation.gmail.GmailLogin"/> -->
+<!--        <class name="com.automation.paytm.PaytmL"/> -->
+<!--        <class name="com.automation.yahoo.YahooLogin"/> -->
+       
+  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
